@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Effective Java 3/E summary item 1 to 5
+title: Effective Java 3/E summary item 1 to 5 (Longer version)
 ---
+You can find the shorter version of this summary [here]({% post_url 2020-12-22-effective-java-3-e-summary-item-1-to-5-shorter %}).
+
 ## Item 1: Consider static factory methods instead of constructors
 
 Pros:
