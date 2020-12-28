@@ -3,9 +3,12 @@ layout: post
 title: Effective Java 3/E summary chanpter 2 (Shorter version)
 ---
 
-You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10-longer %}).
+# Chanpter 2 : Methods Common to All Objects
 
-## Item 10: Common methods of all objects
+
+## Item 10
+
+You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10-longer %}).
 
 ### equals
 #### Considerations when implementing

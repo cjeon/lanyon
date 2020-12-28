@@ -2,9 +2,12 @@
 layout: post
 title: Effective Java 3/E summary chanpter 1 (Shorter version)
 ---
-You can find the longer version of this summary [here]({% post_url 2020-12-22-effective-java-3-e-summary-item-1-to-5-longer %}).
 
-## Item 1~5: Creating and Destroying Objects 1
+# Chanpter 1 : Creating and Destroying Objects
+
+## Item 1~5
+
+You can find the longer version of this summary [here]({% post_url 2020-12-22-effective-java-3-e-summary-item-1-to-5-longer %}).
 
 ### Object creation patterns
 
@@ -22,9 +25,9 @@ You can find the longer version of this summary [here]({% post_url 2020-12-22-ef
 - Will it allow inheritance?
 - How many parameters are required?
 
-You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10-longer %}).
+## Item 6~9
 
-## Item 6~9: Creating and Destroying Objects 2
+You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10-longer %}).
 
 ### Efficient object management
 - Reuse immutable objects

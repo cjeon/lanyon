@@ -37,9 +37,10 @@ You can find the shorter version of this summary [here]({% post_url 2020-12-22-e
 
 * When a second exception occurs during handling a first exception occurred in a nested try-finally clauses, the first exception is hidden. Use try-with-resources can resolve this issue.
 
-You can find the shorter version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-chapter-2-shorter %}).
 
 ## Item 10: Obey the general contract when overriding equals
+
+You can find the shorter version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-chapter-2-shorter %}).
 
 It is when a class has a notion of logical equality that differs from mere object identity, it is appropriate to override equals.
 
