@@ -3,9 +3,7 @@ layout: post
 title: Effective Java 3/E summary chanpter 1 (Shorter version)
 ---
 
-# Chanpter 1 : Creating and Destroying Objects
-
-## Item 1~5
+## Chanpter 1 : Creating and Destroying Objects
 
 You can find the longer version of this summary [here]({% post_url 2020-12-22-effective-java-3-e-summary-item-1-to-5-longer %}).
 
@@ -24,8 +22,6 @@ You can find the longer version of this summary [here]({% post_url 2020-12-22-ef
 - Is it a class that implements an interface?
 - Will it allow inheritance?
 - How many parameters are required?
-
-## Item 6~9
 
 You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10 %}).
 
