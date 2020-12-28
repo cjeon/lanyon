@@ -27,7 +27,7 @@ You can find the longer version of this summary [here]({% post_url 2020-12-22-ef
 
 ## Item 6~9
 
-You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10-longer %}).
+You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10 %}).
 
 ### Efficient object management
 - Reuse immutable objects
