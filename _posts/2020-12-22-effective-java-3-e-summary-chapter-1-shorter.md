@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Effective Java 3/E summary (Shorter version)
+title: Effective Java 3/E summary chanpter 1 (Shorter version)
 ---
 You can find the longer version of this summary [here]({% post_url 2020-12-22-effective-java-3-e-summary-item-1-to-5-longer %}).
 
@@ -22,9 +22,9 @@ You can find the longer version of this summary [here]({% post_url 2020-12-22-ef
 - Will it allow inheritance?
 - How many parameters are required?
 
-You can find the longer version of this summary [here]({% post_url 2020-12-22-effective-java-3-e-summary-item-1-to-5-longer %}).
+You can find the longer version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-item-6-to-10-longer %}).
 
-## Item 6~9: Object creation and destruction 2
+## Item 6~9: Creating and Destroying Objects 2
 
 ### Efficient object management
 - Reuse immutable objects
@@ -33,20 +33,5 @@ You can find the longer version of this summary [here]({% post_url 2020-12-22-ef
      - Class that directly manages memory
      - Use of cache (considering WeakHashMap)
      - Listener, Callback
-- Don't use object destructor finalizer, cleaner
-     - As an alternative, use AutoCloseable + try-with-resources syntax
-
-## Item 10: Common methods of all objects
-
-### equals
-#### Considerations when implementing
-- Should it be implemented?
-- Is it an inherited class?
-- Implement hashCode
-
-#### implementation method
-- Determine whether you are yourself with ==
-- Check type with instanceOf
-- Type casting
-- Check the 'Core' field
-     - in the order of the probability of being different and the fastest comparison
+- Don't use object destructor `finalizer`, `cleaner`
+     - As an alternative, use `AutoCloseable` + `try-with-resources` syntax
