@@ -3,7 +3,7 @@ layout: post
 title: Effective Java 3/E summary item 6 to 10 (Longer version)
 ---
 
-You can find the shorter version of this summary [here]({% post_url 2020-12-22-effective-java-3-e-summary-chapter-1-shorter %}).
+You can find the shorter version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-chapter-2-shorter %}).
 
 ## Item 6: Avoid creating unnecessary objects
 
@@ -36,7 +36,6 @@ You can find the shorter version of this summary [here]({% post_url 2020-12-22-e
 ## Item 9: Prefer try-with-resources to try-finally
 
 * When a second exception occurs during handling a first exception occurred in a nested try-finally clauses, the first exception is hidden. Use try-with-resources can resolve this issue.
-
 
 ## Item 10: Obey the general contract when overriding equals
 
