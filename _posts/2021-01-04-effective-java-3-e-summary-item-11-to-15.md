@@ -49,4 +49,4 @@ You must override hashCode in every class that overrides equals.
 
 > If you make it public, you are obligated to support it forever to maintain compatibility.
 
-* It is acceptable to make a private member of a public class package-private in order to test it, but it is not acceptable to raise the accessibility any higher. In
+* It is acceptable to make a private member of a public class package-private in order to test it, but it is not acceptable to raise the accessibility any higher.
