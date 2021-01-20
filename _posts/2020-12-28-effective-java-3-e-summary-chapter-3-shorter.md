@@ -16,10 +16,10 @@ Minimize the possibility of change (if there is no obvious reason, follow the ru
 
 ## Class design pattern
 1. Does this class need inheritance?
-- NO, </br>
+- NO,
 just implement the class by following the rules above.
 
-- Yes, </br>
+- Yes,
 Favor composition over inheritance. Follow the steps below.
 
 ### Steps to create an inheritable class
