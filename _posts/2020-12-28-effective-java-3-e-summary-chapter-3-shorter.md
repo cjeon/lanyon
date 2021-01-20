@@ -20,11 +20,13 @@ Minimize the possibility of change (if there is no obvious reason, follow the ru
 just implement the class by following the rules above.
 
 - Yes, </br>
-Follow the steps below.
+Favor composition over inheritance. Follow the steps below.
 
 ### Steps to create an inheritable class
 1. Build a skeleton through the interface.
-2. Create a delivery class. (Rapper class)
+2. Create a delivery class. (Wrapper class)
+
+> __Note__ : Doesn't need to implement wrapper class in Kotlin. Kotlin provides `delegate` keyword. 
 
 ```java
 public class ForwardingSet<E> implements Set<E> { 
