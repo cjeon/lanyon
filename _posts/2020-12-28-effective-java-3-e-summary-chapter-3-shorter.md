@@ -76,3 +76,13 @@ public class InstrumentedSet<E> extends ForwardingSet<E> {
 - Broken encapsulation (parent affects children)
 - Multiple inheritance not possible
 - `Equals` cannot be implemented
+
+### Interface
+- The purpose of the `interface` is to tell the client what the instance can do.
+- `Interface` is difficult to modify, so design creating a new interface.
+- Use default methods when creating a new interface. (Java 8 or higher)
+
+### Use of class
+- Tagged classes are used in hierarchical structure by using `abstract class`.
+- Implement as `static` as possible by preventing member classes from referencing outer classes.
+- Limit source files to a single top-level class!
