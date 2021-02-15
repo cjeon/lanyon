@@ -46,6 +46,14 @@ public enum Operation {
     public abstract double apply(double x, double y);
 }
 ```
+- Use EnumSet instead of bit fields
+- Use EnumMap instead of ordinal indexing
+- Emulate extensible enums with interfaces
 
 ## Precautions for Enum
 - Prohibit use of `ordinal()`. Instead, it is marked as an instance field
+
+## Annotation
+- Used for an explicit purpose rather than a function.
+- Always use `@Override` when overriding
+- If you need a type definition functionality, use the marker interface.
