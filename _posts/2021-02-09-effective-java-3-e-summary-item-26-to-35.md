@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Effective Java 3/E summary item 21 to 25 (Longer version)
+title: Effective Java 3/E summary item 26 to 35 (Longer version)
 ---
 
 You can find the shorter version of this summary [here]({% post_url 2020-12-28-effective-java-3-e-summary-chapter-2-shorter %}).
