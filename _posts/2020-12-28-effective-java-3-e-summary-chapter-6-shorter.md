@@ -34,3 +34,9 @@ You can find the longer version of this summary [here]({% post_url 2020-12-28-ef
 - Cannot be changed to `Stream` when
     - local variables need to be modified
     - `return`, `break`, `continue`, `exception` is implemented
+- Use `java.util.stream.Collectors` methods for reducing side-effects
+    - `toList`, `toSet`, `toMap`, `groupingBy`, `joining`
+- Best return type is `Collection`!
+    - `Collection` can be both (Iterable, Stream).
+    - Tremendous sequence can be replaced to `AbstractCollecion`.
+- For `parallel()`, consider whether (the number of elements * the number of implemented codes > Hundreds of thousands)
