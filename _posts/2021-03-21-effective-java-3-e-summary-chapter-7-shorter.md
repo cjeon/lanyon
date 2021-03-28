@@ -31,3 +31,7 @@ You can find the longer version of this summary [here]({% post_url 2021-02-22-ef
 - Return `Optional<T>` when
     - avoiding return `null`
     - clients need to deal with return value specially
+
+## Comments for all exposed API
+- Write WHAT, not HOW
+- Write @params, @return, @throws, postcondition, side effect, thread safety level
