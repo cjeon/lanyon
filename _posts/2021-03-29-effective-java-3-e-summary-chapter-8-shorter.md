@@ -32,3 +32,5 @@ You can find the longer version of this summary [here]({% post_url 2021-02-22-ef
         - Code smell
         - 11 times slower
     - Use `reflection` only when creating it, and refer to it by an `interface` or a `higher class`.
+10. Avoid using JNI (Java Native Interface)
+11. Don't optimize, do it when you need it through profiling.
